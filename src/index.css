@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: 'Manrope', sans-serif;
+  /* --font-family:'roboto' */
+
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-bg: #040C18;
+  /* --color-bg: #fff; */
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+}
+
+
+.breadcrumb-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.breadcrumb-section .overlay-black {
+  padding: 80px 0px;
+}
+
+.breadcrumb-section .breadcrumb-title {
+  padding: 0px 70px;
+}
+
+.breadcrumb-section .breadcrumb-title .sub-title {
+  color: #ffffff;
+  margin-bottom: 15px;
+  letter-spacing: 8px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.breadcrumb-section .breadcrumb-title .big-title {
+  margin: 0px;
+  font-size: 42px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.breadcrumb-section .breadcrumb-title .big-title strong {
+  font-weight: 900;
+  color: #ffbe30;
+}
+
+.breadcrumb-section .breadcrumb-list ul {
+  padding: 0px;
+  margin: 0 auto;
+  display: table;
+}
+
+.breadcrumb-section .breadcrumb-list ul .breadcrumb-item {
+  float: left;
+  list-style: none;
+  position: relative;
+  margin-right: 30px;
+  padding-right: 30px;
+  color: #ffffff;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.breadcrumb-section .breadcrumb-list ul .breadcrumb-item:before {
+  top: 0;
+  bottom: 0;
+  right: -5px;
+  margin: 0px;
+  padding: 0px;
+  content: '|';
+  font-weight: 700;
+  position: absolute;
+  color: #ffffff;
+}
+
+.breadcrumb-section .breadcrumb-list ul .breadcrumb-item:last-child {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.breadcrumb-section .breadcrumb-list ul .breadcrumb-item:last-child:before {
+  display: none;
+}
+
+.breadcrumb-section .breadcrumb-list ul .breadcrumb-item .breadcrumb-link {
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.breadcrumb-section .breadcrumb-list ul .breadcrumb-item .breadcrumb-link:hover {
+  color: #ffbe30;
+}
+
+
+/* //outsourced ///////////////////////////////////////////////////// */
+
+.our-management-section .management-item .item-title {
+  margin-bottom: 30px;
+}
+.our-management-section{
+  color: #fff;
+}
+
+.our-management-section .management-item .item-title .title-text {
+  margin: 0px;
+  display: table;
+  font-weight: 900;
+  position: relative;
+  padding-right: 60px;
+  font-size: 24px;
+}
+
+.our-management-section .management-item .item-title .title-text:after {
+  right: 0;
+  bottom: 6px;
+  height: 5px;
+  width: 50px;
+  content: '';
+  position: absolute;
+  background-color: #ffbe30;
+}
+
+.award-section .company-age {
+  height: 620px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.award-section .company-age .banner-img {
+  top: 50%;
+  left: 50%;
+  width: 390px;
+  height: 430px;
+  overflow: hidden;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.award-section .awaed-item-area {
+  position: relative;
+}
+
+.award-section .awaed-item-area:before {
+  top: 0;
+  bottom: 0;
+  left: 13px;
+  width: 2px;
+  content: '';
+  height: 100%;
+  position: absolute;
+  background-color: #878787;
+}
+
+.award-section .awaed-item-area .arrow-up,
+.award-section .awaed-item-area .arrow-down {
+  left: 0px;
+  z-index: 2;
+  position: absolute;
+  color: #878787;
+  font-size: 30px;
+}
+
+.award-section .awaed-item-area .arrow-up {
+  top: -22px;
+}
+
+.award-section .awaed-item-area .arrow-down {
+  bottom: -22px;
+}
+
+.award-section .awaed-item-area .awaed-wrapper {
+  max-height: 425px;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.award-section .awaed-item-area .awaed-wrapper .awaed-item {
+  padding: 30px 0px;
+  position: relative;
+  padding-left: 120px;
+}
+
+.award-section .awaed-item-area .awaed-wrapper .awaed-item .awaed-content .awaed-title {
+  font-weight: 700;
+  position: relative;
+  font-size: 24px;
+}
+
+.award-section .awaed-item-area .awaed-wrapper .awaed-item .awaed-content .awaed-title .awaed-date {
+  top: 5px;
+  left: -105px;
+  padding-left: 10px;
+  position: absolute;
+  padding-bottom: 10px;
+  color: #ffbe30;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.award-section .awaed-item-area .awaed-wrapper .awaed-item .awaed-content .awaed-title .awaed-date:before {
+  left: -6px;
+  z-index: 1;
+  content: '';
+  width: 10px;
+  bottom: -4px;
+  height: 10px;
+  position: absolute;
+  border-radius: 100%;
+  background-color: #ffbe30;
+}
+
+.award-section .awaed-item-area .awaed-wrapper .awaed-item .awaed-content .awaed-title .awaed-date:after {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  background-color: #878787;
+}
+
+.award-section .awaed-item-area .awaed-wrapper .awaed-item .awaed-content p {
+  font-size: 14px;
+}
+
+.awaed-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.service-section .team-btn {
+  padding-top: 45px;
+}
+
+.service-section .service-wrapper>ul {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: table;
+  border-top: 1px solid #f0f0f0;
+  border-left: 1px solid #f0f0f0;
+}
+
+.service-section .service-wrapper>ul>li {
+  width: 25%;
+  float: left;
+  display: inline-block;
+  border-right: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.service-section .service-wrapper>ul>li a {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  text-align: center;
+  padding: 60px 30px;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.service-section .service-wrapper>ul>li a .icon {
+  display: table;
+  margin: 0 auto 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-section .service-wrapper>ul>li a .icon i {
+  font-size: 54px;
+  background: -webkit-gradient(linear, left top, right bottom, from(#ff3e00), to(#ffbe30));
+  background: -webkit-linear-gradient(top left, #ff3e00, #ffbe30);
+  background: -o-linear-gradient(top left, #ff3e00, #ffbe30);
+  background: linear-gradient(to bottom right, #ff3e00, #ffbe30);
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.service-section .service-wrapper>ul>li a .service-title {
+  width: 100%;
+  display: block;
+  font-weight: 900;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+
+.service-section .service-wrapper>ul>li a .service-sub-title {
+  width: 100%;
+  display: block;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.service-section .service-wrapper>ul>li a:before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: -1;
+  content: '';
+  position: absolute;
+  background: -webkit-gradient(linear, left top, right bottom, from(#ff3e00), to(#ffbe30));
+  background: -webkit-linear-gradient(top left, #ff3e00, #ffbe30);
+  background: -o-linear-gradient(top left, #ff3e00, #ffbe30);
+  background: linear-gradient(to bottom right, #ff3e00, #ffbe30);
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-section .service-wrapper>ul>li a:hover {
+  z-index: 2;
+  color: #ffffff;
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+  -webkit-box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+.service-section .service-wrapper>ul>li a:hover .icon i {
+  background: transparent !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+.service-section .service-wrapper>ul>li a:hover:before {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
